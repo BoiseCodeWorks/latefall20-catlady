@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatLady</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container-fluid bg-info">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Cat Lady</h2>
+      </div>
+    </div>
+  </header>
+  <main class="container-fluid">
+    <div class="row justify-content-center text-center mt-3">
+      <div class="col-6 border shadow-lg">
+        <h1 id="cat-name">Cats Name</h1>
+        <h3 id="cat-pets">Times Petted</h3>
+        <h3 id="cat-status">Status</h3>
+        <img class="img-fluid" id="cat-img" src="//placehold.it/200x200" alt="">
+        <hr>
+        <button class="btn btn-primary btn-block" onclick="petCat()">Pet Cat</button>
+        <button class="btn btn-success btn-block mb-3" onclick="giveCatnip()">Give Catnip</button>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid bg-info">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Made with love by late fall 20</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
